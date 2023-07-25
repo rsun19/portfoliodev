@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfoliodev/static/css/main.64881223.css",
-    "main.js": "/portfoliodev/static/js/main.ddec17cd.js",
+    "main.js": "/portfoliodev/static/js/main.dda9e3e3.js",
     "static/media/hiking.jpg": "/portfoliodev/static/media/hiking.004c44f5d64773380a56.jpg",
     "static/media/myImage.jpg": "/portfoliodev/static/media/myImage.c6fdb84e23702b655af4.jpg",
     "static/media/salsa.png": "/portfoliodev/static/media/salsa.d1c60b45ce255c29cc11.png",
+    "static/media/hosePour.jpg": "/portfoliodev/static/media/hosePour.f99d44a54d8463fc31cd.jpg",
     "static/media/bookBlog.jpg": "/portfoliodev/static/media/bookBlog.287f906d7ce1d64922d2.jpg",
     "static/media/recycleAI.jpg": "/portfoliodev/static/media/recycleAI.393e1ad58b830a3f2d5b.jpg",
-    "static/media/fire.jpg": "/portfoliodev/static/media/fire.b4d8d839e95afe945b2f.jpg",
     "static/media/tripPlanner.jpg": "/portfoliodev/static/media/tripPlanner.6c188e11fb1362cda8d6.jpg",
     "static/media/jokeGenerator.jpg": "/portfoliodev/static/media/jokeGenerator.a06e43e3c0df56dc37c6.jpg",
     "index.html": "/portfoliodev/index.html",
     "main.64881223.css.map": "/portfoliodev/static/css/main.64881223.css.map",
-    "main.ddec17cd.js.map": "/portfoliodev/static/js/main.ddec17cd.js.map"
+    "main.dda9e3e3.js.map": "/portfoliodev/static/js/main.dda9e3e3.js.map"
   },
   "entrypoints": [
     "static/css/main.64881223.css",
-    "static/js/main.ddec17cd.js"
+    "static/js/main.dda9e3e3.js"
   ]
 }
