@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoliodev/static/css/main.af74f6ee.css",
-    "main.js": "/portfoliodev/static/js/main.37bc43d2.js",
+    "main.css": "/portfoliodev/static/css/main.a39f7901.css",
+    "main.js": "/portfoliodev/static/js/main.09738250.js",
     "static/media/myImage.jpg": "/portfoliodev/static/media/myImage.c6fdb84e23702b655af4.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfoliodev/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bookBlog.jpg": "/portfoliodev/static/media/bookBlog.287f906d7ce1d64922d2.jpg",
@@ -20,11 +20,11 @@
     "static/media/slick.ttf": "/portfoliodev/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfoliodev/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfoliodev/index.html",
-    "main.af74f6ee.css.map": "/portfoliodev/static/css/main.af74f6ee.css.map",
-    "main.37bc43d2.js.map": "/portfoliodev/static/js/main.37bc43d2.js.map"
+    "main.a39f7901.css.map": "/portfoliodev/static/css/main.a39f7901.css.map",
+    "main.09738250.js.map": "/portfoliodev/static/js/main.09738250.js.map"
   },
   "entrypoints": [
-    "static/css/main.af74f6ee.css",
-    "static/js/main.37bc43d2.js"
+    "static/css/main.a39f7901.css",
+    "static/js/main.09738250.js"
   ]
 }
