@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfoliodev/static/css/main.39ed38f0.css",
-    "main.js": "/portfoliodev/static/js/main.562669bb.js",
+    "main.js": "/portfoliodev/static/js/main.d67777bf.js",
     "static/media/myImage.jpg": "/portfoliodev/static/media/myImage.c6fdb84e23702b655af4.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfoliodev/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bookBlog.jpg": "/portfoliodev/static/media/bookBlog.287f906d7ce1d64922d2.jpg",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.39ed38f0.css",
-    "static/js/main.562669bb.js"
+    "static/js/main.d67777bf.js"
   ]
 }
