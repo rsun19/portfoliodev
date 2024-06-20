@@ -1,28 +1,22 @@
 {
   "files": {
-    "main.css": "/portfoliodev/static/css/main.852d68d1.css",
-    "main.js": "/portfoliodev/static/js/main.62a4cc0d.js",
+    "main.css": "/portfoliodev/static/css/main.d6c4277d.css",
+    "main.js": "/portfoliodev/static/js/main.fabab951.js",
     "static/media/myImage.jpg": "/portfoliodev/static/media/myImage.c6fdb84e23702b655af4.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfoliodev/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bookBlog.jpg": "/portfoliodev/static/media/bookBlog.287f906d7ce1d64922d2.jpg",
     "static/media/recycleAI.jpg": "/portfoliodev/static/media/recycleAI.393e1ad58b830a3f2d5b.jpg",
     "static/media/tripPlanner.jpg": "/portfoliodev/static/media/tripPlanner.6c188e11fb1362cda8d6.jpg",
-    "static/media/Health App.jpg": "/portfoliodev/static/media/Health App.26c651d210be98ebcc63.jpg",
+    "static/media/HealthApp.jpg": "/portfoliodev/static/media/HealthApp.26c651d210be98ebcc63.jpg",
     "static/media/fontawesome-webfont.eot": "/portfoliodev/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfoliodev/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/jokeGenerator.jpg": "/portfoliodev/static/media/jokeGenerator.a06e43e3c0df56dc37c6.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfoliodev/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfoliodev/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/uva1.jpeg": "/portfoliodev/static/media/uva1.ddab8c47c519a268c765.jpeg",
-    "static/media/redhat.webp": "/portfoliodev/static/media/redhat.f2d3d020a1ad8dababe2.webp",
-    "static/media/slick.svg": "/portfoliodev/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/portfoliodev/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/portfoliodev/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/portfoliodev/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfoliodev/index.html"
   },
   "entrypoints": [
-    "static/css/main.852d68d1.css",
-    "static/js/main.62a4cc0d.js"
+    "static/css/main.d6c4277d.css",
+    "static/js/main.fabab951.js"
   ]
 }
