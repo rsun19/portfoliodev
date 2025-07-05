@@ -17,7 +17,6 @@ const Home = (): React.JSX.Element => {
     
   useEffect(() => {
       const fetchReviewsData = async () => {
-        console.log('fetching...');
         try {
           const response = await fetch(
             "https://robertsrandomreviews.com/api/post",
@@ -95,8 +94,6 @@ const Home = (): React.JSX.Element => {
               /> 
             </motion.div>
           </div>
-          {/* <br /> */}
-          {/* <Typing /> */}
           <br />
           <ContactBar twoxl={twoxl} />
         </div>
