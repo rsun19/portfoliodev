@@ -2,7 +2,7 @@ import { Review } from "types";
 
 export const mocks: Review[] = [
   {
-    author_name: "Rick Riordan",
+    author_name: "Rick Riordan-mock",
     id: 27,
     rating_int: "10",
     title: "The Chalice of the Gods",
