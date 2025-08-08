@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoliodev/static/css/main.bb80c3b3.css",
-    "main.js": "/portfoliodev/static/js/main.391aae9e.js",
+    "main.css": "/portfoliodev/static/css/main.e42a1ade.css",
+    "main.js": "/portfoliodev/static/js/main.68dd9646.js",
     "static/media/myImage.jpg": "/portfoliodev/static/media/myImage.c6fdb84e23702b655af4.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfoliodev/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bookBlog.jpg": "/portfoliodev/static/media/bookBlog.287f906d7ce1d64922d2.jpg",
@@ -17,7 +17,7 @@
     "index.html": "/portfoliodev/index.html"
   },
   "entrypoints": [
-    "static/css/main.bb80c3b3.css",
-    "static/js/main.391aae9e.js"
+    "static/css/main.e42a1ade.css",
+    "static/js/main.68dd9646.js"
   ]
 }
