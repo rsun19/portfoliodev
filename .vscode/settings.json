@@ -1,9 +1,13 @@
 {
-    "cssVariables.lookupFiles": [
-      "**/*.css",
-      "**/*.scss",
-      "**/*.sass",
-      "**/*.less",
-      "node_modules/@mantine/core/styles.css"
-    ]
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/@mantine/core/styles.css"
+  ],
+  "eslint.workingDirectories": ["./src"],
+  "[javascript, typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
+}

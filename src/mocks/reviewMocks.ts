@@ -1,0 +1,81 @@
+import { Review } from "types";
+
+export const mocks: Review[] = [
+  {
+    author_name: "Rick Riordan",
+    id: 27,
+    rating_int: "10",
+    title: "The Chalice of the Gods",
+    url: "https://robertsrandomreviews.com/post/27",
+  },
+  {
+    author_name: "Rebecca Yarros",
+    id: 26,
+    rating_int: "10",
+    title: "Fourth Wing",
+    url: "https://robertsrandomreviews.com/post/26",
+  },
+  {
+    author_name: "Taylor Jenkins Reid",
+    id: 25,
+    rating_int: "10",
+    title: "After I Do",
+    url: "https://robertsrandomreviews.com/post/25",
+  },
+  {
+    author_name: "Joe Haldeman",
+    id: 24,
+    rating_int: "10",
+    title: "The Forever War",
+    url: "https://robertsrandomreviews.com/post/24",
+  },
+  {
+    author_name: "R. F. Kuang",
+    id: 21,
+    rating_int: "10",
+    title: "Yellowface",
+    url: "https://robertsrandomreviews.com/post/21",
+  },
+  {
+    author_name: "Rebecca Serle",
+    id: 23,
+    rating_int: "7",
+    title: "One Italian Summer",
+    url: "https://robertsrandomreviews.com/post/23",
+  },
+  {
+    author_name: "Amor Towles",
+    id: 22,
+    rating_int: "6",
+    title: "A Gentleman in Moscow",
+    url: "https://robertsrandomreviews.com/post/22",
+  },
+  {
+    author_name: "Shelby Van Pelt",
+    id: 20,
+    rating_int: "2",
+    title: "Remarkably Bright Creatures",
+    url: "https://robertsrandomreviews.com/post/20",
+  },
+  {
+    author_name: "Taylor Jenkins Reid",
+    id: 18,
+    rating_int: "10",
+    title: "Carrie Soto Is Back",
+    url: "https://robertsrandomreviews.com/post/18",
+  },
+  {
+    author_name: "Taylor Jenkins Reid",
+    id: 17,
+    rating_int: "10",
+    title: "Daisy Jones & The Six",
+    url: "https://robertsrandomreviews.com/post/17",
+  },
+  {
+    author_name: "Emily Henry",
+    id: 19,
+    rating_int: "9",
+    title: "Happy Place",
+    url: "https://robertsrandomreviews.com/post/19",
+  },
+];

@@ -1,22 +1,36 @@
-import { Carousel } from '@mantine/carousel';
-import { useMediaQuery } from '@mantine/hooks';
-import { Paper, Text, Title, Button, useMantineTheme, Card, rem } from '@mantine/core';
-import classes from './CardsCarousel.module.css';
+import { Carousel } from "@mantine/carousel";
+import { useMediaQuery } from "@mantine/hooks";
+import {
+  Paper,
+  Text,
+  Title,
+  Button,
+  useMantineTheme,
+  Card,
+  rem,
+} from "@mantine/core";
+import classes from "./CardsCarousel.module.css";
 import tripPlanner from "../../assets/tripPlanner.jpg";
 import bookBlog from "../../assets/bookBlog.jpg";
 import jokeGenerator from "../../assets/jokeGenerator.jpg";
 import recycleAI from "../../assets/recycleAI.jpg";
 import myHealth from "../../assets/HealthApp.jpg";
-import { PortfolioItem } from 'types';
-import React from 'react';
+import { PortfolioItem } from "types";
+import React from "react";
 
-const CardProp = ({ color, title, description, category, links }: PortfolioItem): React.JSX.Element => {
+const CardProp = ({
+  color,
+  title,
+  description,
+  category,
+  links,
+}: PortfolioItem): React.JSX.Element => {
   return (
     <Paper
       shadow="md"
       p="xl"
       radius="md"
-      style={{ backgroundColor: `${color}`, height: '25rem' }}
+      style={{ backgroundColor: `${color}`, height: "25rem" }}
       className={`${classes.card}`}
     >
       <div>
@@ -30,22 +44,29 @@ const CardProp = ({ color, title, description, category, links }: PortfolioItem)
           {title}
         </Title>
       </div>
-      <div className='flex flex-col gap-2' style={{ position: 'absolute', bottom: '1rem' }}>
-      {
-        links?.map((link): React.ReactNode => {
+      <div
+        className="flex flex-col gap-2"
+        style={{ position: "absolute", bottom: "1rem" }}
+      >
+        {links?.map((link, idx): React.ReactNode => {
           return (
-            <a href={link.link} target='_blank' className='mr-3'>
+            <a
+              key={idx}
+              rel="noreferrer"
+              href={link.link}
+              target="_blank"
+              className="mr-3"
+            >
               <Button variant="white" color="dark">
                 {link.name}
               </Button>
             </a>
-          )
-        })
-      }
+          );
+        })}
       </div>
     </Paper>
   );
-}
+};
 const portfolioItems: PortfolioItem[] = [
   {
     id: "1",
@@ -53,7 +74,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Flashcards App",
     category: "Web Development",
     description: "Typescript, React, Javascript, Next.js, Express.js, Docker",
-    color: '#FFE4E1',
+    color: "#FFE4E1",
     links: [
       {
         id: "1",
@@ -73,7 +94,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Book Blog App",
     category: "Web Development",
     description: "Python, JavaScript, Flask, HTML, CSS",
-    color: '#95D2B3',
+    color: "#95D2B3",
     links: [
       {
         id: "1",
@@ -88,12 +109,12 @@ const portfolioItems: PortfolioItem[] = [
     ],
   },
   {
-    id: "2",
+    id: "3",
     title: "Trip Planning App",
     image: tripPlanner,
     category: "Mobile App Development",
     description: "Dart, Python, Flask, Firebase, PostgreSQL",
-    color: 'beige',
+    color: "beige",
     links: [
       {
         id: "1",
@@ -103,12 +124,12 @@ const portfolioItems: PortfolioItem[] = [
     ],
   },
   {
-    id: "3",
+    id: "4",
     image: jokeGenerator,
     title: "Joke Generator App",
     category: "Fullstack and iOS Development",
     description: "JavaScript, React.js, Swift, Python, Flask",
-    color: '#BACD92',
+    color: "#BACD92",
     links: [
       {
         id: "1",
@@ -118,12 +139,12 @@ const portfolioItems: PortfolioItem[] = [
     ],
   },
   {
-    id: "4",
+    id: "5",
     image: recycleAI,
     title: "Image Classifier App",
     category: "ML/AI",
     description: "Python, Flask, PyTorch",
-    color: '#EEA5A6',
+    color: "#EEA5A6",
     links: [
       {
         id: "1",
@@ -133,11 +154,11 @@ const portfolioItems: PortfolioItem[] = [
     ],
   },
   {
-    id: "5",
+    id: "6",
     image: myHealth,
     title: "Mental Health App",
     category: "iOS Development",
-    color: '#B0A695',
+    color: "#B0A695",
     description: "Swift",
   },
 ];
@@ -153,12 +174,10 @@ export default function PortfolioSlider() {
 
   return (
     <Card shadow="sm" padding="lg" radius="md" withBorder>
-      <h1 className="text-3xl text-center pb-6">
-        Portfolio
-      </h1>
+      <h1 className="text-3xl text-center pb-6">Portfolio</h1>
       <Carousel
-        slideSize={{ base: '100%', sm: '50%'}}
-        slideGap={{ base: rem(2), sm: 'xl' }}
+        slideSize={{ base: "100%", sm: "50%" }}
+        slideGap={{ base: rem(2), sm: "xl" }}
         align="start"
         slidesToScroll={mobile ? 1 : 2}
       >

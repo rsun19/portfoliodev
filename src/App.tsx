@@ -1,16 +1,17 @@
-import Beginning from "./components/ModelPage/Beginning";
-import '@mantine/core/styles.css';
-import { MantineProvider } from '@mantine/core';
-import '@mantine/carousel/styles.css';
+import BeginningAnimation from "./components/ModelPage/BeginningAnimation";
+import "@mantine/core/styles.css";
+import { MantineProvider } from "@mantine/core";
+import "@mantine/carousel/styles.css";
+import * as React from "react";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div id="App" style={{ overflow: 'hidden' }}>
+    <div id="App" style={{ overflow: "hidden" }}>
       <MantineProvider>
-        <Beginning />
+        <BeginningAnimation />
       </MantineProvider>
     </div>
   );
-}
+};
 
 export default App;
